@@ -2,7 +2,7 @@ ARG MAVEN_VERSION
 ARG JAVA_VERSION
 ARG JAVA_VARIANT
 
-FROM maven:${MAVEN_VERSION}-jdk-${JAVA_VERSION}${JAVA_VARIANT}}
+FROM maven:${MAVEN_VERSION}-jdk-${JAVA_VERSION}${JAVA_VARIANT}
 LABEL maintainer="Michele Mondelli <michele.mondelli@bmeme.com>"
 
 RUN apt update && \
